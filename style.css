@@ -46,17 +46,8 @@
     transition: 0.5s;
 }
 
-#contact .contact-row .contact-right{
-    flex-basis: 50%;
-    min-width: 50%;
-    background-color: white;
-    box-shadow: 0 0 20px rgba(0,0,0,20%);
-    border-radius: 4px;
-    padding: 30px;
-}
-
-#contact .contact-row .contact-right input,
-#contact .contact-row .contact-right textarea{
+#contact .contact-row .contact-msg input,
+#contact .contact-row .contact-msg textarea{
     display: block;
     width: 100%;
     margin: 25px 0;
@@ -71,18 +62,18 @@
     transition: 0.5s;
 }
 
-#contact .contact-row .contact-right input:focus,
-#contact .contact-row .contact-right textarea:focus{
+#contact .contact-row .contact-msg input:focus,
+#contact .contact-row .contact-msg textarea:focus{
     border: 2px solid #40A578;
 }
 
-#contact .contact-row .contact-right input[type=submit]{
+#contact .contact-row .contact-msg input[type=submit]{
     font-size: 17px;
     font-weight: 400;
     cursor: pointer;
 }
 
-#contact .contact-row .contact-right input[type=submit]:hover{
+#contact .contact-row .contact-msg input[type=submit]:hover{
     background-color: #40A578;
     color: #f7f7f7;
     border: #40A578;
