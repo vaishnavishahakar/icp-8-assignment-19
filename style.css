@@ -7,3 +7,83 @@
     font-family: 'poppins',sans-serif;
 }
 
+#contact{
+    padding: 20px 30px;
+}
+
+#contact .contact-row{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+#contact .contact-row .contact-left{
+    flex-basis: 50%;
+    min-width: 50%;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,20%);
+    border-radius: 4px;
+    padding: 30px;
+}
+
+#contact .contact-row .contact-left .icon-box{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 30px 0;
+}
+
+#contact .contact-row .contact-left .icon-box .icon i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #b02d2d;
+    text-align: center;
+    line-height: 47px;
+    font-size: 20px;
+    color: #b02d2d;
+    transition: 0.5s;
+}
+
+#contact .contact-row .contact-right{
+    flex-basis: 50%;
+    min-width: 50%;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,20%);
+    border-radius: 4px;
+    padding: 30px;
+}
+
+#contact .contact-row .contact-right input,
+#contact .contact-row .contact-right textarea{
+    display: block;
+    width: 100%;
+    margin: 25px 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: #525252;
+    padding: 10px 20px;
+    border: 2px solid lightgray;
+    border-radius: 2px;
+    outline: none;
+    resize: none;
+    transition: 0.5s;
+}
+
+#contact .contact-row .contact-right input:focus,
+#contact .contact-row .contact-right textarea:focus{
+    border: 2px solid #b02d2d;
+}
+
+#contact .contact-row .contact-right input[type=submit]{
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#contact .contact-row .contact-right input[type=submit]:hover{
+    background-color: #b02d2d;
+    color: #f7f7f7;
+    border: #b02d2d;
+}
